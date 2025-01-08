@@ -1,0 +1,323 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Helvetica Neue,Helvetica,sans-serif;
+        box-sizing: border-box;
+    }
+    header{
+        position: relative;
+    }
+    .bgvid{
+        width: 100%;
+        height: 695.2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        overflow: hidden;
+        border-bottom: 0.8px solid black;
+    }
+    .circle{
+        width: 48px;
+        height: 48px;
+        background-color: #fff;
+        border-radius: 50%;
+        z-index: 10;
+        position: fixed;
+        right: 10px;
+        bottom: -50px;
+        transform: translateY(-80px);
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+    .circle:hover{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    .head{
+        width: 100%;
+        height: 64px;
+        display: flex; 
+        position: absolute;
+        top: 0;
+    }
+    .headoptions{
+        width: 253.6px;
+        height: 100%;
+        border: 0.8px solid white;
+        border-top: none;
+        color: #fff;
+        border-left: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .headoptions p{
+        font-size: 1.125rem;
+        font-weight: 100;
+    }
+    .headoptions:hover{
+        background-color: #f50;
+    }
+    .headoptions-last{
+        width: 253.6px;
+        height: 100%;
+        border: 0.8px solid white;
+        border-top: none;
+        border-right: none;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.125rem;
+    }
+    .headoptions-last p{
+        font-size: 1.125rem;
+        font-weight: 100;
+    }
+    .headoptions-last:hover{
+        background-color: #f50;
+    }
+    .pcollection{
+        font-weight: 700;
+        color: #fff;
+        position: absolute;
+    }
+    .and{
+        width: 100%;
+        height: 93.5px;
+        display: flex;
+        font-size: 115px;
+        transform: scaleY(1.7);
+        overflow: hidden;
+        font-weight: 1000;
+        color: #fff;
+        position: absolute;
+        top: 552px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2.1px;
+        margin-block: 0px;
+        padding-inline-start: 0px;
+    }
+    .and li:hover{
+        color: #f50;
+    }
+    .collections{
+        width: 100%;
+        height: 950px;
+        display: flex;
+    }
+    .leftcol{
+        width: 760px;
+        height: 950px;
+        border-right: 0.8px solid black;
+        border-bottom: 0.8px solid black;
+        background-image: url(https://andersen-andersen.com/cdn/shop/files/NAVY_FULL-ZIP_Taupe_2433.jpg?crop=region&crop_height=4806&crop_left=0&crop_top=477&crop_width=3840&height=1282&v=1732115318&width=1024);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightcol{
+        width: 760px;
+        height: 950px;
+        border-bottom: 0.8px solid black;
+        background-image: url(https://andersen-andersen.com/cdn/shop/files/Scarf_Light_Grey_1038_6144aef3-7606-4b1d-bd3e-36671f9609dd.jpg?crop=region&crop_height=2403&crop_left=0&crop_top=180&crop_width=1920&height=1282&v=1732115726&width=1024);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay:hover{
+        background-color: #f50;
+    }
+    p{
+        color: #fff;
+        font-size: 1.125rem;
+        font-weight: 799;
+    }
+    .flagshipstore{
+        width: 100%;
+        height: 854.55px;
+        background-image: url(https://andersen-andersen.com/cdn/shop/files/aa_popeye_021.jpg?crop=region&crop_height=2064&crop_left=0&crop_top=1718&crop_width=3667&height=1153&v=1732110327&width=2048);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay1{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftcol1{
+        width: 760px;
+        height: 950px;
+        border-right: 0.8px solid black;
+        border-bottom: 0.8px solid black;
+        background-image: url(https://andersen-andersen.com/cdn/shop/files/240827_NPR_A-A_Popeye_539.jpg?crop=region&crop_height=3860&crop_left=0&crop_top=383&crop_width=3084&height=1282&v=1732114707&width=1024);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightcol1{
+        width: 760px;
+        height: 950px;
+        border-bottom: 0.8px solid black;
+        background-image: url(https://andersen-andersen.com/cdn/shop/files/Andersen-Andersen_fall_14_Katrine_Mobius_3a866f8b-8af1-4e10-b5a7-d44d05c265c3.jpg?crop=region&crop_height=1252&crop_left=0&crop_top=124&crop_width=1000&height=961&v=1732117177&width=768);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flagshipstore1{
+        width: 100%;
+        height: 854.55px;
+        background-image: url(https://andersen-andersen.com/cdn/shop/files/Lyserod.jpg?crop=region&crop_height=1932&crop_left=0&crop_top=1609&crop_width=3433&height=1153&v=1732185078&width=2048);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .signup{
+        width: 372px;
+        height: 129.6px;
+        background-color: #fff;
+        border: 0.8px solid black;
+    }
+    .newsletter{
+        width: 100%;
+        height: 50%;
+        border-bottom: 0.8px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .nletter{
+        font-size: 18px;
+        color: black;
+        font-weight: 500;
+        margin-left: 20px;
+    }
+    .email{
+        width: 100%;
+        height: 50%;
+        border-bottom: 0.8px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .nletter1{
+        height: fit-content;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: 500;
+        margin-left: 20px;
+        transform: translateY(21px);
+    }
+    .nletter1:hover{
+        color: #f50;
+    }
+    .snup{
+        width: 114.03px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .snup:hover{
+        background-color: black;
+        color: #fff;
+    }
+    .end{
+        width: 100%;
+        height: 173.48px;
+        border-top: 0.8px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .and1{
+        width: 100%;
+        height: 93.5px;
+        display: flex;
+        font-size: 115px;
+        transform: scaleY(1.7);
+        overflow: hidden;
+        font-weight: 1000;
+        color: black;
+        /* position: absolute; */
+        justify-content: center;
+        align-items: center;
+        column-gap: 2.1px;
+        margin-block: 0px;
+        padding-inline-start: 0px;
+        padding-bottom: 7px;
+    }
+    .and1 li:hover{
+        color: #f50;
+    }
+    footer{
+        width: 100%;
+        height: 388.8px;
+    }
+    .footr{
+        width: 100%;
+        height: 388.8px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footropt{
+        width: 50%;
+        height: 64.8px;
+        border-top: 0.8px solid black;
+        border-right: 0.8px solid black;
+        display: flex;
+        align-items: center;
+    }
+    .footropt:hover{
+        background-color: #f50;
+    }
+    .footropte{
+        width: 50%;
+        height: 64.8px;
+        border-top: 0.8px solid black;
+        display: flex;
+        align-items: center;
+    }
+    .footropte:hover{
+        background-color: #f50;
+    }
+    .fletter{
+        font-size: 18px;
+        color: black;
+        font-weight: 500;
+        margin-left: 20px;
+    }
+    .footroptl{
+        width: 50%;
+        height: 64.8px;
+        border-top: 0.8px solid black;
+        border-right: 0.8px solid black;
+        display: flex;
+        align-items: center;
+    }
+    .footroptel{
+        width: 50%;
+        height: 64.8px;
+        border-top: 0.8px solid black;
+        display: flex;
+        align-items: center;
+    }
